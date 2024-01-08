@@ -1,0 +1,1539 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s
+}
+
+p {
+  color: #2d2d2d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+p:last-child {
+  margin-bottom: 0px;
+}
+
+.top_headbar {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  position: relative;
+  background-color: #fff;
+}
+
+.top_headbar > .container .row {
+  align-items: center;
+}
+
+.top_headbar .main_logo_sec img {
+  width: 250px;
+  height: auto;
+}
+
+.top_headbar ul {
+  padding-left: 0px;
+  list-style: none;
+  margin-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  justify-content: end;
+}
+
+.top_headbar ul li svg {
+  font-size: 18px;
+  height: auto;
+  color: #0758ae;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.top_headbar ul li i {
+  font-size: 18px;
+  height: auto;
+  color: #0758ae;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.top_headbar ul li span {
+  color: #01244e;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.top_headbar ul li a {
+  color: #01244e;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.top_headbar ul li span a:hover {
+  color: #0758ae;
+}
+
+.header_mainsec .navbar .navbar-nav .nav-item a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 25px;
+  border-right: 1px solid #fff;
+}
+
+.header_mainsec .navbar .navbar-nav .nav-item a:hover {
+  background-color: #0758ae;
+  color: #fff;
+}
+
+.header_mainsec .navbar .navbar-nav .nav-item.current-menu-item .nav-link {
+  background-color: #0758ae;
+  color: #fff;
+}
+
+.header_mainsec {
+  background-color: #01244e;
+  position: relative;
+}
+
+.header_mainsec .navbar {
+  padding: 0px;
+}
+
+.header_mainsec .navbar .navbar-collapse {
+  justify-content: end;
+}
+
+.header_mainsec .navbar .navbar-nav .nav-item.dropdown .dropdown-menu {
+  position: absolute;
+  top: 52px;
+  left: -2px;
+  z-index: 999999;
+  padding: 0px;
+  border-radius: 0px;
+}
+
+.header_mainsec .navbar .navbar-nav .nav-item.dropdown .dropdown-menu li .dropdown-item {
+  padding: 15px 30px;
+  border-bottom: 1px solid #e8e8e8;
+  color: #01244e;
+  font-size: 16px;
+  font-weight: 400;
+  border-right: none;
+}
+
+.header_mainsec .navbar .navbar-nav .nav-item.dropdown .dropdown-menu li .dropdown-item:hover {
+  background-color: #0758ae;
+  color: #fff;
+}
+
+.header_mainsec .navbar .navbar-nav .nav-item.dropdown .dropdown-menu li:last-child .dropdown-item {
+  border-bottom: none;
+}
+
+.header_mainsec .navbar .navbar-nav .nav-item.dropdown .dropdown-menu li .dropdown-item.active {
+  background-color: #0758ae;
+  color: #fff;
+}
+
+.home_banner_mainsec {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 600px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_banner_mainsec::after {
+  content: "";
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.home_banner_mainsec .banner_contnt {
+  position: relative;
+  z-index: 99;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.home_banner_mainsec .banner_contnt h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.home_banner_mainsec .banner_contnt p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  width: 100%;
+}
+
+.home_contct_form {
+  padding-top: 0px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.home_contct_form .form_sec {
+  background-color: #01244e;
+  border-radius: 10px;
+  padding: 50px;
+  margin-top: -100px;
+  position: relative;
+  z-index: 99;
+}
+
+.home_contct_form .form_sec .title_mainsec {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.home_contct_form .form_sec .title_mainsec h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.header_mainsec .navbar-brand img {
+  width: 150px;
+  height: auto;
+}
+
+.title_mainsec h2 {
+  position: relative;
+}
+
+.title_mainsec h2::after {
+  content: "";
+  background-color: #fff;
+  width: 35px;
+  height: 5px;
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  bottom: -22px;
+  transform: translate(-50%);
+}
+
+form .form-control {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #01244e;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+form .btn.btn-primary {
+  background-color: #085ab2;
+  border: 1px solid #085ab2;
+  border-radius: 4px;
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  box-shadow: none;
+  width: 100%;
+}
+
+form .btn.btn-primary:hover {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  color: #fff;
+}
+
+.our_toprated_plumbers {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  background-color: #deedff;
+}
+
+.our_toprated_plumbers .img_sec img {
+  width: 100%;
+  height: auto;
+}
+
+.our_toprated_plumbers .contnt_sec {
+  padding-left: 25px;
+}
+
+.our_toprated_plumbers .contnt_sec h2 {
+  color: #01244e;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+
+.repair_services_mainsec {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.repair_services_mainsec .top_contnt_sec {
+  text-align: center;
+}
+
+.repair_services_mainsec .top_contnt_sec h2 {
+  color: #01244e;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+
+.repair_services_sec {
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.repair_services_sec .repair_boxsec {
+  position: relative;
+  margin-bottom: 20px;
+  background-color: #01244e;
+  border-radius: 4px;
+  min-height: 655px;
+}
+
+.repair_services_sec .repair_boxsec .img_sec {
+  width: 100%;
+  height: 245px;
+  overflow: hidden;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.repair_services_sec .repair_boxsec .img_sec img {
+  width: 100%;
+  height: auto;
+}
+
+.repair_services_sec .repair_boxsec .contnt_sec {
+  padding: 25px 25px;
+}
+
+.repair_services_sec .repair_boxsec .contnt_sec h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 37px;
+  margin-bottom: 10px;
+}
+
+.repair_services_sec .repair_boxsec .contnt_sec p {
+  color: #fff;
+  font-size: 15px;
+}
+
+.why_choose_mainsec {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  background-color: #01244e;
+}
+
+.why_choose_mainsec .top_contnt_sec h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.why_choose_infosec {
+  justify-content: center;
+}
+
+.why_choose_infosec .why_choose_boxsec {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 6px;
+  min-height: 420px;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.why_choose_infosec .why_choose_boxsec .contnt_sec h3 {
+  color: #01244e;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.faq_mainsec {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.faq_mainsec .main_titlesec h2 {
+  color: #01244e;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.faq_mainsec .accordion .accordion-item .accordion-header .accordion-button {
+  background-color: #01244e;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+  box-shadow: none;
+}
+
+.faq_mainsec .accordion .accordion-item .accordion-body {
+  color: #2d2d2d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.faq_mainsec .accordion .accordion-item .accordion-header .accordion-button::after {
+  background-image: url(../img/arrow-down.png);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: center;
+}
+
+.request_quote_form {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  background-color: #01244e;
+}
+
+.request_quote_form .form_sec .title_mainsec {
+  text-align: center;
+}
+
+.request_quote_form .form_sec .title_mainsec h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.request_quote_form .form_sec .title_mainsec p {
+  color: #fff;
+}
+
+.request_quote_form .form_sec form {
+  margin-top: 50px;
+  background-color: #001630;
+  padding: 40px;
+  border-radius: 6px;
+}
+
+.footer_mainsec {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.footer_mainsec .logo_sec img {
+  width: 220px;
+  height: auto;
+}
+
+.footer_mainsec .logo_sec .contnt_sec {
+  margin-top: 20px;
+  padding-right: 45px;
+}
+
+.footer_mainsec .logo_sec .contnt_sec p {
+  margin-bottom: 0px;
+}
+
+.footer_mainsec .menu_sec h3 {
+  color: #01244e;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+  margin-bottom: 15px;
+}
+
+.footer_mainsec .menu_sec ul {
+  padding-left: 0px;
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+.footer_mainsec .menu_sec ul li {
+  margin-bottom: 5px;
+}
+
+.footer_mainsec .menu_sec ul li a {
+  color: #2d2d2d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.footer_mainsec .menu_sec ul li a:hover {
+  color: #0758ae;
+}
+
+.footer_mainsec .contact_sec h3 {
+  color: #01244e;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+  margin-bottom: 15px;
+}
+
+.footer_mainsec .contact_sec ul {
+  padding-left: 0px;
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+.footer_mainsec .contact_sec ul li {
+  margin-bottom: 10px;
+}
+
+.footer_mainsec .contact_sec ul li svg {
+  font-size: 18px;
+  color: #085ab2;
+  margin-right: 15px;
+}
+
+.footer_mainsec .contact_sec ul li i {
+  font-size: 18px;
+  color: #085ab2;
+  margin-right: 15px;
+}
+
+.footer_mainsec .contact_sec ul li span {
+  color: #2d2d2d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.footer_mainsec .contact_sec ul li a:hover span {
+  color: #0758ae;
+}
+
+.footer_mainsec .contact_sec ul li span a {
+  color: #2d2d2d;
+}
+
+.footer_mainsec .contact_sec ul li span a:hover {
+  color: #0758ae;
+}
+
+.copyright_mainsec {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #deedff;
+  text-align: center;
+}
+
+.copyright_mainsec .inner_txt p {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.call_bottom_sec {
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  z-index: 999999;
+}
+
+.call_bottom_sec .icon_sec img {
+  width: 60px;
+  height: auto;
+  transition: .5s ease-in-out;
+}
+
+.call_bottom_sec .icon_sec img:hover {
+  transition: .5s ease-in-out;
+  rotate: 2turn;
+}
+
+.about_banner_mainsec {
+  height: 500px;
+}
+
+.about_plumbing_services {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.about_plumbing_services .img_sec img {
+  width: 100%;
+  height: auto;
+}
+
+.about_plumbing_services .contnt_mainsec {
+  padding-left: 30px;
+}
+
+.about_plumbing_services .contnt_mainsec h2 {
+  color: #01244e;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+
+.about_trusted_plumbing {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #deedff;
+  position: relative;
+}
+
+.about_trusted_plumbing .contnt_mainsec h2 {
+  color: #01244e;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+
+.about_trusted_plumbing .contnt_mainsec ul {
+  padding-left: 15px;
+}
+
+.about_trusted_plumbing .contnt_mainsec ul li {
+  color: #2d2d2d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 8px;
+}
+
+.about_get_started {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #01244e;
+  position: relative;
+}
+
+.about_get_started .contnt_mainsec {
+  text-align: center;
+}
+
+.about_get_started .contnt_mainsec h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+
+.about_get_started .contnt_mainsec p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+.btn_mainsec .btn_style {
+  background-color: #085ab2;
+  border: 1px solid #085ab2;
+  border-radius: 4px;
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  box-shadow: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.btn_mainsec .btn_style:hover {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  color: #fff;
+}
+
+.contact_banner_mainsec {
+  height: 500px;
+}
+
+.contact_page_form .contnt_mainsec p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.contact_page_form .form_sec form {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.contact_solutions_contnt {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  position: relative;
+  background-color: #01244e;
+}
+
+.contact_solutions_contnt .img_sec img {
+  width: 100%;
+  height: auto;
+}
+
+.contact_solutions_contnt .contnt_mainsec  {
+  padding-left: 30px;
+}
+
+.contact_solutions_contnt .contnt_mainsec h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+
+.contact_solutions_contnt .contnt_mainsec p {
+  color: #fff;
+}
+
+.map_mainsec > .container-fluid {
+  padding: 0px;
+}
+
+.blog_mainsec {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  background-color: #deedff;
+}
+
+.blog_banner_mainsec {
+  background-image: url(../img/blog-banner-img.jpg);
+  height: 500px;
+}
+
+.blog_mainsec .blog_boxsec {
+  margin-bottom: 25px;
+}
+
+.blog_mainsec .blog_boxsec {
+  margin-bottom: 25px;
+  background-color: #01244e;
+  border-radius: 4px;
+  min-height: 560px;
+}
+
+.blog_mainsec .blog_boxsec .img_sec {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  transition: 0.6s;
+}
+
+.blog_mainsec .blog_boxsec .img_sec img {
+  width: 100%;
+  height: auto;
+  transition: 0.6s;
+}
+
+.blog_mainsec .blog_boxsec:hover .img_sec img {
+  transform: scale(1.1);
+}
+
+.blog_mainsec .blog_boxsec .contnt_mainsec {
+  padding: 30px;
+}
+
+.blog_mainsec .blog_boxsec .contnt_mainsec h3 {
+  margin-bottom: 15px;
+}
+
+.blog_mainsec .blog_boxsec .contnt_mainsec h3 a {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 31px;
+}
+
+.blog_mainsec .blog_boxsec .contnt_mainsec h3 a:hover {
+  color: #007bff;
+}
+
+.blog_mainsec .blog_boxsec .contnt_mainsec p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 0px;
+}
+
+.blog_mainsec .blog_boxsec .contnt_mainsec .btn_mainsec {
+  margin-top: 15px;
+}
+
+.blog_details_mainsec {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.blog_details_mainsec .blogdetail_contnt_mainsec p {
+  color: #2d2d2d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+
+.blog_details_mainsec .blogdetail_contnt_mainsec .point_content {
+  padding-top: 20px;
+}
+
+.blog_details_mainsec .blogdetail_contnt_mainsec .point_content h3 {
+  color: #01244e;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.blog_details_mainsec .tag_share_mainsec {
+  padding-bottom: 50px;
+}
+
+.blog_details_mainsec .tag_share_mainsec ul {
+  padding-left: 0px;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.blog_details_mainsec .tag_share_mainsec ul li {
+  margin-bottom: 15px;
+}
+
+.blog_details_mainsec .tag_share_mainsec ul li .contnt_txt {
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.blog_details_mainsec .tag_share_mainsec ul li .contnt_txt p {
+  color: #2d2d2d;
+  margin-bottom: 0px;
+}
+
+.blog_details_mainsec .tag_share_mainsec ul li .contnt_txt p a {
+  color: #2d2d2d;
+  margin-bottom: 0px;
+}
+
+.blog_details_mainsec .tag_share_mainsec ul li .contnt_txt a:hover {
+  color: #0758ae;
+}
+
+.blog_details_mainsec .tag_share_mainsec ul li .title_txt {
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.blog_details_mainsec .tag_share_mainsec ul li .title_txt p {
+  color: #012964;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.blog_details_mainsec .tag_share_mainsec ul li .social_mainsec ul {
+  margin-top: 0px;
+}
+
+.blog_details_mainsec .tag_share_mainsec ul li .social_mainsec ul li {
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+
+.blog_details_mainsec .tag_share_mainsec ul li .social_mainsec {
+  width: auto;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.blog_details_mainsec .leave_comment_mainsec .title_mainsec h3 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.blog_details_mainsec .leave_comment_mainsec .title_mainsec h3::after {
+  content: "";
+  background-color: #fff;
+  width: 35px;
+  height: 5px;
+  border-radius: 50px;
+  position: absolute;
+  left: 0;
+  bottom: -22px;
+}
+
+.leave_comment_mainsec {
+  background-color: #01244e;
+  border-radius: 10px;
+  padding: 50px;
+  position: relative;
+  z-index: 99;
+}
+
+.leave_comment_mainsec .form_mainsec .form-group textarea {
+  min-height: 200px;
+}
+
+.leave_comment_mainsec .form_mainsec .btn_mainsec .gradient_btnstyle {
+  margin-left: 0px;
+  font-size: 18px;
+  padding: 20px 45px;
+}
+
+.breadcrum_mainsec {
+  margin-top: 40px;
+}
+
+.breadcrum_mainsec ul {
+  padding-left: 0px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.breadcrum_mainsec ul li {
+  display: inline-block;
+  margin-right: 35px;
+  position: relative;
+  color: #b9b9b9;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.breadcrum_mainsec ul li::after {
+  content: "/";
+  color: #b9b9b9;
+  position: absolute;
+  top: -2px;
+  right: -25px;
+  font-size: 20px;
+}
+
+.breadcrum_mainsec ul li:last-child::after {
+  content: "";
+}
+
+.breadcrum_mainsec ul li a {
+  color: #5b5b5b;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.breadcrum_mainsec ul li a:hover {
+  color: #0758ae;
+}
+
+.breadcrum_mainsec ul li.active a {
+  color: #01244e;
+}
+
+.breadcrum_mainsec ul li.active {
+  color: #01244e;
+}
+
+.blog_mainsec .title_mainsec h3 {
+  color: #01244e;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services_banner_mainsec {
+  background-image: url(../img/repair_services_img01.jpg);
+  height: 500px;
+}
+
+.banner_sewer_line {
+  background-image: url(../img/repair_services_img02.jpg);
+  height: 500px;
+}
+
+.banner_drain_repair{
+  background-image: url(../img/repair_services_img03.jpg);
+  height: 500px;
+}
+
+.banner_gas_line {
+  background-image: url(../img/repair_services_img04.jpg);
+  height: 500px;
+}
+
+.banner_heater_repair {
+  background-image: url(../img/repair_services_img05.jpg);
+  height: 500px;
+}
+
+.services_emergency_infosec {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  position: relative;
+  background-color: #deedff;
+}
+
+.services_emergency_infosec .img_sec img {
+  width: 100%;
+  height: auto;
+}
+
+.services_emergency_infosec .contnt_mainsec {
+  padding-left: 30px;
+}
+
+.services_emergency_infosec .contnt_mainsec h2 {
+  color: #01244e;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+
+.emergency_services .why_choose_boxsec {
+  min-height: 480px;
+}
+
+.services_contact_sec {
+  background-color: #deedff;
+}
+
+.services_contact_sec .contnt_mainsec h2 {
+  color: #01244e;
+}
+
+.services_contact_sec .contnt_mainsec p {
+  color: #2d2d2d;
+}
+
+.servives_points_mainsec {
+  background-color: #01244e;
+}
+
+.servives_points_mainsec .contnt_mainsec h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+
+.servives_points_mainsec .contnt_mainsec ul li {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 8px;
+}
+
+
+
+/* ================== Responsive Css Start ================== */
+
+@media only screen and (max-width: 767px) {
+.top_headbar {
+  padding-bottom: 0px;
+}
+
+.top_headbar > .container .row .col-sm-12.col-md-7.col-lg-9.col-xl-9 {
+  background-color: #0757ad;
+}
+
+.top_headbar .main_logo_sec {
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.top_headbar .main_logo_sec img {
+  width: 200px;
+}
+
+.top_headbar ul {
+  justify-content: center;
+  text-align: center;
+  column-gap: 0px;
+  margin-top: 0px;
+  padding: 0px 0px;
+}
+
+.top_headbar ul li {
+  width: 60px;
+  height: 40px;
+  line-height: 40px;
+  border-right: 1px solid #fff;
+}
+
+.top_headbar ul li:first-child {
+  border-left: 1px solid #fff;
+}
+
+.top_headbar ul li svg {
+  color: #fff;
+}
+
+.top_headbar ul li i {
+  color: #fff;
+}
+
+.top_headbar ul li span {
+  font-size: 15px;
+  display: none;
+}
+
+.top_headbar ul li span a {
+  font-size: 15px;
+}
+
+.header_mainsec {
+  background-color: transparent;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 100%;
+}
+
+.header_mainsec .navbar {
+  float: right;
+  position: inherit;
+}
+
+.header_mainsec .navbar-toggler {
+  border: none;
+  padding: 7px 12px;
+  background-color: #0757ad;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.header_mainsec .navbar-toggler svg {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header_mainsec .navbar .navbar-nav {
+  background-color: #deedff;
+}
+
+.header_mainsec .navbar .navbar-collapse {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  z-index: 99999;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 5px 4px 0px #0000001c;
+}
+
+.header_mainsec .navbar .navbar-nav .nav-item a {
+  color: #01244e;
+  border-right: none;
+  border-bottom: 1px solid #bad9ff;
+}
+
+.header_mainsec .navbar .navbar-nav .nav-item.dropdown .dropdown-menu {
+  position: static;
+  margin-top: 0px;
+}
+
+.header_mainsec .navbar .navbar-nav .nav-item.dropdown .dropdown-menu li .dropdown-item {
+  padding-left: 50px;
+}
+
+.home_banner_mainsec {
+  height: auto;
+  padding: 80px 0px 100px;
+}
+
+.home_banner_mainsec .banner_contnt {
+  width: 100%;
+}
+
+.home_banner_mainsec .banner_contnt h1 {
+  font-size: 35px;
+  line-height: 45px;
+}
+
+.home_banner_mainsec .banner_contnt p {
+  padding-bottom: 30px;
+}
+
+.call_bottom_sec {
+  right: 10px;
+  bottom: 20px;
+}
+
+.home_contct_form .form_sec {
+  padding: 25px;
+}
+
+.our_toprated_plumbers .contnt_sec {
+  padding-left: 0px;
+  margin-top: 15px;
+}
+
+.our_toprated_plumbers .contnt_sec h2 {
+  font-size: 22px;
+  line-height: 35px;
+  margin-bottom: 15px;
+}
+
+.repair_services_mainsec .top_contnt_sec h2 {
+  font-size: 22px;
+  line-height: 35px;
+  margin-bottom: 15px;
+}
+
+.repair_services_sec .repair_boxsec .img_sec {
+  height: auto;
+}
+
+.why_choose_mainsec .top_contnt_sec h2 {
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.faq_mainsec .accordion .accordion-item .accordion-header .accordion-button {
+  line-height: 29px;
+}
+
+.request_quote_form .form_sec .title_mainsec h2 {
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.request_quote_form .form_sec form {
+  padding: 25px;
+}
+
+.footer_mainsec {
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+.footer_mainsec .logo_sec .contnt_sec {
+  padding-right: 0px;
+  margin-bottom: 30px;
+}
+
+.footer_mainsec .menu_sec {
+  margin-bottom: 30px;
+}
+
+.footer_mainsec .contact_sec ul li span {
+  font-size: 15px;
+}
+
+.footer_mainsec .contact_sec ul li span a {
+  font-size: 15px;
+}
+
+.about_plumbing_services {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about_plumbing_services .contnt_mainsec {
+  padding-left: 0px;
+  margin-top: 20px;
+}
+
+.about_plumbing_services .contnt_mainsec h2 {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.contact_page_form .form_sec {
+  margin-top: -50px;
+}
+
+.contact_solutions_contnt {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact_solutions_contnt .contnt_mainsec {
+  padding-left: 0px;
+  margin-top: 25px;
+}
+
+.contact_solutions_contnt .contnt_mainsec h2 {
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.blog_mainsec .blog_boxsec .img_sec {
+  height: auto;
+}
+
+.services_emergency_infosec {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.services_emergency_infosec .contnt_mainsec {
+  padding-left: 0px;
+  margin-top: 20px;
+}
+
+.emergency_services .why_choose_boxsec {
+  min-height: auto;
+}
+
+.blog_details_mainsec .tag_share_mainsec ul li .title_txt {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.blog_details_mainsec .tag_share_mainsec ul li .contnt_txt {
+  width: 100%;
+  padding-left: 0px;
+}
+
+.blog_details_mainsec .tag_share_mainsec ul li .social_mainsec {
+  width: 100%;
+  margin-left: 0px;
+}
+
+.leave_comment_mainsec {
+  padding: 25px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+br {
+  display: none;
+} 
+
+.top_headbar ul li {
+  width: 100%;
+  text-align: right;
+}
+
+.header_mainsec .navbar .navbar-toggler {
+  display: none;
+}
+
+.header_mainsec .navbar .navbar-collapse {
+  display: block;
+}
+
+.header_mainsec .navbar .navbar-collapse .navbar-nav {
+  flex-direction: row;
+}
+
+.home_banner_mainsec .banner_contnt {
+  width: 100%;
+}
+
+.home_banner_mainsec .banner_contnt h1 {
+  font-size: 35px;
+  line-height: 43px;
+}
+
+.home_banner_mainsec {
+  height: 500px;
+}
+
+.home_contct_form .form_sec {
+  padding: 35px;
+}
+
+.our_toprated_plumbers .contnt_sec {
+  padding-left: 15px;
+}
+
+.our_toprated_plumbers .contnt_sec h2 {
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.repair_services_mainsec .top_contnt_sec h2 br {
+  display: none;
+}
+
+.repair_services_mainsec .top_contnt_sec h2 {
+  font-size: 28px;
+  line-height: 39px;
+}
+
+.repair_services_sec .repair_boxsec .img_sec {
+  height: 230px;
+}
+
+.repair_services_sec .repair_boxsec {
+  min-height: 670px;
+}
+
+.why_choose_mainsec .top_contnt_sec h2 {
+  font-size: 28px;
+  line-height: 39px;
+}
+
+.faq_mainsec .main_titlesec h2 {
+  font-size: 28px;
+  line-height: 39px;
+}
+
+.request_quote_form .form_sec .title_mainsec h2 {
+  font-size: 28px;
+  line-height: 39px;
+}
+
+.footer_mainsec .logo_sec .contnt_sec {
+  padding-right: 0px;
+}
+
+.about_plumbing_services {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about_plumbing_services .contnt_mainsec {
+  padding-left: 0px;
+}
+
+.contact_solutions_contnt {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact_solutions_contnt .contnt_mainsec {
+  padding-left: 0px;
+}
+
+.services_emergency_infosec {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.services_emergency_infosec .contnt_mainsec {
+  padding-left: 15px;
+}   
+}
+
+/* ================== Responsive Css End ================== */
+
+ul.sub-menu {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
